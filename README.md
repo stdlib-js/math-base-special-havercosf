@@ -60,6 +60,11 @@ The half-value [versed cosine][versed-cosine] is defined as
 To use in Observable,
 
 ```javascript
+havercosf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-havercosf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-havercosf/tags). For example,
+
+```javascript
 havercosf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-havercosf@v0.1.0-umd/browser.js' )
 ```
 
@@ -72,7 +77,7 @@ var havercosf = require( 'path/to/vendor/umd/math-base-special-havercosf/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-havercosf@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-havercosf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -117,7 +122,7 @@ v = havercosf( -3.141592653589793/6.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-two-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-havercosf@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-havercosf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
